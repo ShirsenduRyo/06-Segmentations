@@ -15,32 +15,32 @@ The classification goal in the original paper was to predict whether a client wo
 
 #### Features:
 - **Client attributes**:  
-  - `age` – numeric  
-  - `job` – categorical (e.g., admin, technician, unemployed)  
-  - `marital` – categorical (married, single, divorced)  
-  - `education` – categorical  
-  - `default` – has credit in default? (yes/no)  
-  - `housing` – has housing loan? (yes/no)  
-  - `loan` – has personal loan? (yes/no)  
+  - `age` : numeric  
+  - `job` : categorical (e.g., admin, technician, unemployed)  
+  - `marital` : categorical (married, single, divorced)  
+  - `education` : categorical  
+  - `default` : has credit in default? (yes/no)  
+  - `housing` : has housing loan? (yes/no)  
+  - `loan` : has personal loan? (yes/no)  
 
 - **Campaign-related attributes**:  
-  - `contact` – type of communication (cellular, telephone)  
-  - `month`, `day_of_week` – last contact date  
-  - `duration` – last contact duration (in seconds)  
-  - `campaign` – number of contacts performed during this campaign  
-  - `pdays` – days since last contact from a previous campaign  
-  - `previous` – number of contacts before this campaign  
-  - `poutcome` – outcome of the previous campaign  
+  - `contact` : type of communication (cellular, telephone)  
+  - `month`, `day_of_week` : last contact date  
+  - `duration` : last contact duration (in seconds)  
+  - `campaign` : number of contacts performed during this campaign  
+  - `pdays` : days since last contact from a previous campaign  
+  - `previous` : number of contacts before this campaign  
+  - `poutcome` : outcome of the previous campaign  
 
 - **Social & economic context attributes**:  
-  - `emp.var.rate` – employment variation rate (quarterly indicator)  
-  - `cons.price.idx` – consumer price index (monthly indicator)  
-  - `cons.conf.idx` – consumer confidence index (monthly indicator)  
-  - `euribor3m` – euribor 3-month rate  
-  - `nr.employed` – number of employees  
+  - `emp.var.rate` : employment variation rate (quarterly indicator)  
+  - `cons.price.idx` : consumer price index (monthly indicator)  
+  - `cons.conf.idx` : consumer confidence index (monthly indicator)  
+  - `euribor3m` : euribor 3-month rate  
+  - `nr.employed` : number of employees  
 
 - **Target variable**:  
-  - `y` – has the client subscribed to a term deposit? (binary: `yes`, `no`)  
+  - `y` : has the client subscribed to a term deposit? (binary: `yes`, `no`)  
 
 ### Notes
 - The dataset is **imbalanced** (~11% “yes” vs. ~89% “no”).  
