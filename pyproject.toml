@@ -1,0 +1,22 @@
+[project]
+name = "km_gmm_fuse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipywidgets>=8.1.5",
+    "python-dotenv>=1.0.1",
+    "python-hue-v2>=2.2.1",
+    "requests>=2.32.3",
+    "semantic-kernel>=1.25.0",
+    "sendgrid>=6.11.0",
+    "setuptools>=78.1.0",
+    "pandas>=2.3.1",               
+    "scikit-learn>=1.7.1"          
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
