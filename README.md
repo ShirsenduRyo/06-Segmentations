@@ -7,7 +7,7 @@ This project uses the **Bank Marketing dataset** (bank-full.csv) made publicly a
 The dataset contains the results of **direct marketing campaigns** (phone calls) carried out by a Portuguese banking institution.  
 The classification goal in the original paper was to predict whether a client would subscribe to a term deposit (`y` = yes/no).  
 
-<!-- For this project, we focus on applying **segmentation algorithms** (e.g., K-Means, K-Means++, GMM, Hierarchical Clustering) to group clients into meaningful clusters. -->
+For this project, we focus on applying **segmentation algorithms** (e.g., K-Means, K-Means++, GMM, Hierarchical Clustering) to group clients into meaningful clusters.
 
 ### Dataset Details
 - **Number of instances**: 45,211  
@@ -55,3 +55,14 @@ Please cite the following paper if you use this dataset:
 > *Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology.*  
 > In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, Portugal. EUROSIS.  
 > [PDF](http://hdl.handle.net/1822/14838) | [BibTeX](http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt)
+
+
+## Similar Works
+
+| Algorithm | Authors | Silhoette Score | No. of Clusters |
+|-----------|-----------|-----------|
+| K-Means | Abbas & Asghar | 0.54 | 4 |
+| Hierarchical Clustering (Ward Linkage) | Mishra & Reddy | 0.49 | 4
+| DBSCAN + Hierarchical (Hybrid) (Ward Linkage) | Sahu & Gupta | 0.67 | 6 |
+| **Autoencoder + K-Means | Rahman & Akter | 0.69 | 5 **|
+| XGBoost + K-Prototypes | Qureshi et al. | 0.64 | 5|
