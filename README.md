@@ -59,10 +59,12 @@ Please cite the following paper if you use this dataset:
 
 ## Similar Works
 
-| **Algorithm** | **Authors** | **Silhoette Score** | **No. of Clusters** |
+| **Algorithm** | **Authors** | **Silhouette Score** | **No. of Clusters** |
 |:-----------:|:-----------:|:-----------:|:-------------------:|
 | K-Means | Abbas & Asghar | 0.54 | 4 |
 | Hierarchical Clustering (Ward Linkage) | Mishra & Reddy | 0.49 | 4 |
 | DBSCAN + Hierarchical (Hybrid) (Ward Linkage) | Sahu & Gupta | 0.67 | 6 |
 | **Autoencoder + K-Means** | **Rahman & Akter** | **0.69** | **5**|
 | XGBoost + K-Prototypes | Qureshi et al. | 0.64 | 5|
+
+
