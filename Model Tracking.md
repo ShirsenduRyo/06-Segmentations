@@ -19,6 +19,10 @@
 | VIF & Corr. Filters | 0.1810 | 7 | The above filter, along with extra filtra for VIF, to counter multi-Collinearity |
 | Beyond 10 | 0.2525 | 11 | Exp. With Clusters With More than 10 Features | 
 
+## GMM
 
+| **Name** | **Silhouette Score** | **No. of Clusters** | **Description** |
+|:-----------:|:-----------:|:-----------:|:-------------------:|
+| Beyond 10 | 0.2315 | 11 | Exp. With Clusters With More than 10 Features | 
 
 
