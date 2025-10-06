@@ -14,9 +14,10 @@
 
 | **Name** | **Silhouette Score** | **No. of Clusters** | **Description** |
 |:-----------:|:-----------:|:-----------:|:-------------------:|
-| Simple |  | 0.0919 | 3 | Simple Data, no changes |
+| Simple | 0.0919 | 3 | Simple Data, no changes |
 | Filtered through Correlations | 0.1637 | 7 | Features in the feature pair with high corr, and the one with a lower corr. with target(y), filtered |
-| VIF /& Corr. Filters | 0.1810 | 7 | The above filter, along with extra filtra for VIF, to counter multi-Collinearity |
+| VIF & Corr. Filters | 0.1810 | 7 | The above filter, along with extra filtra for VIF, to counter multi-Collinearity |
+| Beyond 10 | 0.2525 | 11 | Exp. With Clusters With More than 10 Features | 
 
 
 
