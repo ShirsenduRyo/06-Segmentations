@@ -58,6 +58,9 @@ Please cite the following paper if you use this dataset:
 
 
 ## Similar Works
+* Paper Link "https://arxiv.org/pdf/2402.04103" - RFM inspired from here 
+* The recency, frequency, monetary (RFM) model is a valuable tool for client segmentation, focusing on three key factors, namely, recent purchases, transaction frequency, and spending amount
+* Hossain, A.S. Customer segmentation using centroid based and density based clustering algorithms. In Proceedings of the 2017 3rd International Conference on Electrical Information and Communication Technology (EICT), Khulna, Bangladesh, 7–9 December 2017; pp. 1–6. 
 
 | **Algorithm** | **Authors** | **Silhouette Score** | **No. of Clusters** |
 |:-----------:|:-----------:|:-----------:|:-------------------:|
